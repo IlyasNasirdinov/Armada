@@ -1,0 +1,59 @@
+.contact_maps img {
+    width: 630px;
+    height: 500px;
+}
+
+.contackt_blocks {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+
+.contact_block {
+    width: 290px;
+}
+
+.contact_all h1 {
+    margin-bottom: 70px;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 42px;
+
+    color: #000000;
+}
+
+.contact_all p {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+
+
+
+    color: #000000;
+
+}
+
+.all {
+    display: flex;
+    margin-bottom: 8px;
+    margin-top: 36px;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 118.5%;
+
+
+    letter-spacing: 0.01em;
+
+    color: #A4A4A4
+}
+
+.all img {
+    margin-right: 10px;
+    height: 20px;
+}

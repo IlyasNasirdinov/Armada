@@ -1,0 +1,689 @@
+@import url("https://cdn.rawgit.com/mfd/09b70eb47474836f25a21660282ce0fd/raw/e06a670afcb2b861ed2ac4a1ef752d062ef6b46b/Gilroy.css");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header_top {
+    background:
+        #65256F;
+    height: 50px;
+}
+
+
+.header_info {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+.header_title {
+    color: #FFB700;
+}
+
+.header_description {
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+}
+
+.header_nom {
+    display: flex;
+    justify-content: space-between;
+    color: #FFB700;
+}
+
+
+.download {
+    display: flex;
+    justify-content: space-between;
+    /* padding: 10px 0; */
+
+}
+
+.contacts {
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+
+
+}
+
+.header_block1 {
+    width: 100%;
+    height: 50px;
+    background-color: #FFFFFF;
+}
+
+.header_block {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.menu li {
+    list-style: none;
+    margin: 0 20px;
+
+}
+
+.menu li a {
+    text-decoration: none;
+}
+
+.about-button {
+    background-color: Purple;
+    width: 120px;
+    height: 42px;
+    color: #FFFFFF;
+    text-align: center;
+    /* margin: auto 0; */
+    padding: 11px;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.img {
+    background: url(../img/Rectangle\ 70.png) center/cover no-repeat;
+    width: 100%;
+    height: 90vh;
+}
+
+.img_background {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+}
+
+.main_block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.vector {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* width: 10%; */
+    height: 200px;
+    /* background-color: red; */
+    margin-top: 17%;
+    margin-left: 40%;
+}
+
+.vector img {
+    width: 40px;
+}
+
+.block_text {
+    flex: 0 1 50%;
+    margin-top: 10%
+}
+
+.block_text h1 {
+    position: relative;
+    color: aliceblue;
+    font-size: 40px;
+    margin-bottom: 40px;
+
+}
+
+.text_1::after {
+    content: "";
+    background-color: white;
+    width: 50px;
+    height: 5px;
+    position: absolute;
+    top: 120%;
+    left: 0;
+}
+
+.block_text p {
+    color: #FFFFFF;
+    font-size: 36px;
+}
+
+.main_block button {
+    font-family: "Gilroy";
+    background-color: #ffc957;
+    padding: 14px 20px;
+    margin-top: 20px;
+}
+
+.our h2 {
+    text-align: center;
+    font-size: 44px;
+    margin-top: 60px;
+    position: relative;
+    margin-bottom: 60px;
+}
+
+
+.our h2::before {
+    content: "";
+    background-color: #BEBEBE;
+    width: 37.5%;
+    height: 2px;
+    position: absolute;
+    top: 50%;
+    left: 62.5%;
+}
+
+.our h2::after {
+    content: "";
+    background-color: #BEBEBE;
+    width: 38%;
+    height: 2px;
+    position: absolute;
+    top: 50%;
+    left: 0%;
+}
+
+.services .container .services_img {
+    display: flex;
+    justify-content: space-between;
+    /* margin-top: 10%;
+    height: 100px; */
+}
+
+
+
+.services_image {
+    margin: 10px;
+    text-align: center;
+    width: 268px;
+    height: 403px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    box-shadow: 0px 6px 32px rgba(0, 0, 0, 0.534);
+    font-family: "Gilroy";
+    margin-top: 50px;
+}
+
+.text_2 {
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+/* .services_img {
+    display: flex;
+    justify-content: space-between;
+} */
+
+.text_2 {
+    text-align: center;
+    width: 200px;
+}
+
+.text_4 {
+    margin-top: 40px;
+
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #753ED6;
+
+}
+
+.work {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0 auto;
+
+}
+
+.work_img {
+    margin-bottom: 30px;
+    width: 30%;
+    margin: 0 10px 20px 10px;
+    position: relative;
+}
+
+
+.work_img img {
+    width: 100%;
+}
+
+.work_img p {
+    position: absolute;
+    top: 85%;
+    left: 10%;
+    color: white;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    display: flex;
+    align-items: flex-end;
+}
+
+#work_p {
+    top: 75%;
+}
+
+.button1 {
+    padding: 15px 130px;
+    background-color: #65256F;
+    color: #FFFFFF;
+
+}
+
+.work_block {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+
+}
+
+.production {
+    display: flex;
+    justify-content: space-between;
+    /* width: 98%;
+    margin: 0 auto; */
+}
+
+.prodact_image {
+    width: 30%;
+}
+
+.prodact_image img {
+    width: 100%;
+}
+
+.price {
+    display: flex;
+    /* flex-direction: column; */
+    /* justify-content: space-around; */
+    flex-wrap: wrap;
+    width: 100%;
+    /* background-color: red; */
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.price div {
+    width: 21%;
+}
+
+.price div img {
+    width: 100%;
+    height: 300px;
+
+}
+
+.price_text {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+
+
+    color: #4C1F8C;
+}
+
+.app_button {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    width: 100%
+}
+
+.app_price {
+    height: 40px;
+    width: 300px;
+    background-color: #65256F;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+.sect4 {
+    margin-bottom: 94px;
+}
+
+.nike {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 60px;
+}
+
+.team {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.team img {
+    width: 90%;
+}
+
+.name {
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+
+    color: #000000;
+}
+
+.number {
+    display: flex;
+    justify-content: space-around;
+    margin: 50px auto;
+    background: #FFFCFC;
+    box-shadow: 0 3px 20px rgba(10, 10, 10, 0.247);
+    border-radius: 3px;
+    width: 60%;
+    padding: 20px 20px 20px 0;
+
+}
+
+.free2 {
+    text-align: center;
+    margin-top: 87px;
+
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 38px;
+
+    color: #343434;
+
+}
+
+.fre {
+    text-align: center;
+
+
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    /* identical to box height */
+
+
+    color: #585858;
+}
+
+
+.input1 {
+    margin-left: 26px;
+    padding-left: 5px;
+    width: 500px;
+    background: #ECE8E8;
+    border-radius: 3px;
+}
+
+.input2 {
+    width: 300px;
+
+    margin-left: 26px;
+    color: white;
+    background-color: #65256F;
+    padding: 11px 60px;
+    cursor: pointer;
+}
+
+.footer {
+    background-color: #3A3A3A;
+    /* width: 1440px; */
+    height: 60vh;
+}
+
+.foot_text {
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 0;
+}
+
+.foot_text h3 {
+    color: #FFFFFF;
+}
+
+.lorem {
+    width: 200px;
+}
+
+.lorem2 {
+    width: 150px;
+}
+
+.foot_text p {
+    font-style: normal;
+    font-family: 'Gilroy';
+    font-size: 14px;
+    font-weight: 100px;
+    margin-top: 10px;
+    color: #BCBBBB;
+}
+
+
+/* вторая страница */
+
+.header_wrapper {
+    margin-bottom: 90px;
+}
+
+.servic_image {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.servic_image p {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #FFFFFF;
+
+}
+
+.line {
+    border-bottom: solid 2px #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+
+
+.servic_img {
+    width: 65%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.servic_img img {
+    width: 100%;
+}
+
+.servic_img1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.servic_img2 {
+    width: 48.5%;
+}
+
+.servic_img2 {
+    position: relative;
+}
+
+.p_text {
+    position: absolute;
+    top: 80%;
+    left: 30%;
+}
+
+#servic_p3 {
+    position: absolute;
+    top: 70%;
+    left: 15%;
+}
+
+.p_text1 {
+    position: absolute;
+    top: 90%;
+    left: 30%;
+}
+
+#servic_p2 {
+    position: absolute;
+    top: 60%;
+}
+
+.p_text2 {
+    position: absolute;
+    top: 80%;
+    left: 40%;
+}
+
+.servic_img4 {
+    width: 100%;
+    position: relative;
+}
+
+.servic_img3 {
+    position: relative;
+}
+
+.servic_right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 31%;
+}
+
+.servic_right img {
+    width: 100%;
+}
+
+.servic_img5 {
+    width: 100%;
+    position: relative;
+}
+
+
+.sec_our h2 {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 60px;
+    position: relative;
+    margin-bottom: 60px;
+}
+
+.sec_our h2::before {
+    content: "";
+    background-color: #BEBEBE;
+    width: 37.5%;
+    height: 2px;
+    position: absolute;
+    top: 50%;
+    left: 62.5%;
+}
+
+.sec_our h2::after {
+    content: "";
+    background-color: #BEBEBE;
+    width: 37%;
+    height: 2px;
+    position: absolute;
+    top: 50%;
+    left: 0%;
+}
+
+.our_block {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+
+}
+
+.our_block p {
+    text-align: center;
+}
+
+.block_our {
+    width: 20%;
+}
+
+/*  контакты */
+.panel_top_left {
+    display: flex;
+    width: 45%;
+    justify-content: space-between;
+}
+
+.armada_conteiner {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    background-color: #65256F;
+}
+
+.armada_panel_top {
+    display: flex;
+    width: 85%;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.armada_panel_buttom {
+    display: flex;
+    width: 85%;
+    justify-content: space-between;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.armada_panel_buttom ul {
+    display: flex;
+    width: 65%;
+    justify-content: space-between;
+}
+
+.armada_panel_buttom ul li {
+    list-style: none;
+}
+
+.armada_panel_buttom ul li a {
+    text-decoration: none;
+}

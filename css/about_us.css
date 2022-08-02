@@ -1,0 +1,102 @@
+.cont_img {
+    width: 100%;
+}
+
+.lorem_p {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    text-align: center;
+    letter-spacing: 0.01em;
+    color: #4C4C54;
+    width: 90%;
+    margin: 0 auto;
+}
+
+
+
+.services_img {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.services_image1 {
+    margin: 10px;
+    text-align: center;
+    width: 200px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-family: "Gilroy";
+    margin-top: 50px;
+}
+
+.services_image1 h3 {
+    margin-top: 15px;
+}
+
+
+
+.forest_h3 h3 {
+    padding-top: 70px;
+    text-align: center;
+    color: #fff;
+
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+
+}
+
+.forest_img {
+    background: url(../img/forest.png) center/cover no-repeat;
+    height: 80vh;
+    margin-top: 7%;
+}
+
+.forest_background {
+    background-color: rgba(0, 0, 0, 0.6);
+    /* width: 100%; */
+    height: 100%;
+}
+
+.forest_year {
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.forest_h4 h4 {
+    border: 5px solid #ffb700;
+    border-radius: 60%;
+    width: 90px;
+    height: 90px;
+    padding-top: 18.5%;
+    text-align: center;
+    margin: 20px auto;
+    color: white;
+
+
+}
+
+.forest_h4 p {
+    width: 170px;
+    /* padding-top: 50%; */
+    text-align: center;
+    color: white;
+
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 150%;
+
+}
